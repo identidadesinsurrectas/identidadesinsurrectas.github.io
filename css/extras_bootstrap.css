@@ -1,0 +1,84 @@
+
+.logo_base
+{
+  max-width: 200px !important;
+}
+
+.triangulo
+{
+  max-width: 40px !important;
+}
+
+.imgs_carrusel
+{
+  max-height: 750px !important;
+}
+
+.container-fluid
+{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  background-color: #f8f7f5  !important;
+}
+
+.jumbotron
+{
+  margin-top: 2rem !important;
+  margin-left: 4rem !important;
+  margin-right: 4rem !important;
+  margin-bottom: 2rem !important;
+
+  padding: 2rem !important;
+}
+
+@media (max-width: 768px){
+
+  .jumbotron
+  {
+    margin-top: 1rem !important;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+    margin-bottom: 1rem !important;
+
+    padding: 1rem !important;
+  }
+
+}
+
+.construccion-imagen {
+  background: transparent url("..//imagenes/logo_construccion.png");
+/*  min-height: 100%;
+  min-width: 100%;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /*position: relative;*/
+/*  display:block;
+  /*background-origin:border-box;*/
+}
+
+.menu_pie
+{
+  padding: 0 !important;
+}
+
+/*Cosas del menú*/
+.navbar .navbar-nav .nav-link {
+}
+.navbar .navbar-nav .nav-link:hover{
+}
+@media only screen and (min-width: 960px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar .navbar-nav {
+/*     border-bottom: 1px solid #f8f7f5;*/
+  }
+  .navbar .nav-item {
+    padding: 0.5em 0.5em;
+  }
+}
+.navbar .navbar-nav {
+  margin-top: 0.1em;
+/*  border-top: 1px solid #f8f7f5;*/
+}
